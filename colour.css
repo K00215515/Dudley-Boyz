@@ -1,0 +1,20 @@
+body{
+    background-color: lightgrey;
+}
+.main-header{
+    background-color: #15223C;
+    color: white;
+}
+.footer{
+    background-color: #15223C;
+}
+#nav_wrapper a{
+    color: white;
+}
+.gallery-page{
+    background-color: white;
+}
+/*
+.menu{
+    background-color: #15223C;
+}*/
