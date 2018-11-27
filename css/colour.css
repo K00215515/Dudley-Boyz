@@ -1,5 +1,5 @@
 body{
-    background-color: lightgrey;
+    background-color: white;
 }
 .main-header{
     background-color: #15223C;
@@ -8,13 +8,45 @@ body{
 .footer{
     background-color: #15223C;
 }
-#nav_wrapper a{
-    color: white;
-}
 .gallery-page{
     background-color: white;
 }
-/*
+.logIn{
+    background: #FFFFFF;
+}
+.logIn input{
+    background: #f2f2f2;
+}
+.logIn input[type=submit]{
+   color: #FFFFFF; 
+   background: #444;
+}
+.signUp{
+    background: #FFFFFF;
+}
+.signUp input{
+    background: #f2f2f2;
+}
+.signUp input[type=submit]{
+   color: #FFFFFF; 
+   background: #444;
+}
+.admin{
+    background: #FFFFFF;
+}
+.admin input{
+    background: #f2f2f2;
+}
+.admin input[type=submit]{
+   background: #444;
+   color: #FFFFFF; 
+}
 .menu{
     background-color: #15223C;
-}*/
+}
+.grid-container{
+    background-color: white;
+}
+.grid-container > div {
+    background-color: white;
+}
