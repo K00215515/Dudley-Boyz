@@ -1,9 +1,13 @@
-.logIn { 
-    width: 360px;
+/*login*/
+.logIn {
+        
+    max-width: 360px;
     margin: 0 auto 100px;
     padding: 50px;
+    text-align: center;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
+
 .logIn input {
     outline: 0;
     width: 100%;
@@ -11,178 +15,32 @@
     margin: 0 0 15px;
     padding: 15px;
     box-sizing: border-box;
+    font-size: 14px;
 }
+
 .logIn input[type=submit] {
-    outline: 0;
-    width: 100%;
-    border: 0;
-    padding: 15px;
-    cursor: pointer;
+  text-transform: uppercase;
+  outline: 0;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  font-size: 14px;
+  cursor: pointer;
 }
 
-.update{ 
-    width: 360px;
-    margin: 0 auto 100px;
-    padding: 50px;
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
-}
-.update {
-    outline: 0;
-    width: 100%;
-    border: 0;
-    margin: 0 0 15px;
-    padding: 15px;
-    box-sizing: border-box;
-}
-.update input[type=submit] {
-    outline: 0;
-    width: 100%;
-    border: 0;
-    padding: 15px;
-    cursor: pointer;
-}
-
-.signUp {
-    max-width: 360px;
-    margin: 0 auto 100px;
-    padding: 50px;
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
-}
-.signUp input {
-    outline: 0;
-    width: 100%;
-    border: 0;
-    margin: 0 0 15px;
-    padding: 15px;
-    box-sizing: border-box;
-}
-.signUp input[type=submit] {
-    outline: 0;
-    width: 100%;
-    border: 0;
-    padding: 15px;
-    cursor: pointer;
-}
-body{
-    margin: 0;
-    padding: 0;
-}
-.gallery-page{
+.login-page{
     margin-left: 150px;
     margin-top: 10px;
     margin-bottom: 10px;
-}
-h6{
-    margin-top: auto;
-    margin-bottom: 10px;
-}
-.main-header{
-    height: 100px;
-    margin-bottom: 15px;
-    padding-bottom: 40px;
-    width: 100%;
-}
-.footer{
-    height: 80px;
-}
-.main-header img{
-    height: 120px;
-    width: 190px;
-}
-.nav {
-    color: white;
-    height: 40px;
-}
-.menu {
-    margin-left: 150px;
-    margin-top: -54px;
-    border: none;
-    padding-bottom: -20px;
-}
-.menu a {
-    clear: right;
-    color: white;
-    margin: 0 10px;
-    line-height: 70px;
-}
-.nav label {
-    margin: 0 40px 0 0;
-    line-height: 60px;
-    display: none;
-    width: 30px;
-    float: right;
-}
-#toggle {
-    display: none;
-}
-.gallery-page{
-    align-content: center;
     height: 1000px;
     width: 1000px;
-    display: grid;
-    padding: 0;
-    grid-template-columns: 2fr 2fr;
-    grid-template-rows: 1fr 1fr;
-    
+}
 
-}
-.gallery-page img{
-    margin-left: 30px;
-    height: 90%;
-    width: 90%;
-    margin-top: 10px;
-}
-.ImgHo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 54.7%;
-    margin-top: 50px;
-}
-.ImgHoBot {
-    display: block;
-    margin-top: 50px;
-    margin-left: 550px;
-    margin-bottom: 50px;
-}
-.item2 { grid-area: menu; }
-.item3 { grid-area: main; }
-.grid-container{
-    display: grid;
-    grid-template-areas:
-    'header header header header header header'
-    'menu main main main main main'
-    'menu footer footer footer footer footer';
-    grid-gap: 10px;
-    padding: 10px;
-    background-color: white;
-    margin-top: 70px;
-    margin-bottom: 10px;
-}
-.grid-container > div {
-    padding: 20px 0;
-}
-.admin { 
-    width: 360px;
-    margin: 0 auto 100px;
-    padding: 50px;
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
-}
-.admin input {
-    outline: 0;
-    width: 100%;
-    border: 0;
-    margin: 0 0 15px;
-    padding: 15px;
-    box-sizing: border-box;
-}
-.admin input[type=submit] {
-    outline: 0;
-    width: 100%;
-    border: 0;
-    padding: 15px;
-    cursor: pointer;
-}
+
+
+
+
+
 
 /*upload and update button (profile)*/
 .profButton input[type=submit]{
@@ -194,9 +52,75 @@ h6{
   font-size: 14px;
   cursor: pointer;
 }
+
+
+
+
+
+
+
 /*upload Button*/
 .profButton .uploadButton{
     margin-top: 200px;
+}
+
+
+
+
+
+
+
+
+/*Body*/
+body{
+    margin: 0;
+    padding: 0;
+}
+/*Gallery pAGE*/
+.gallery-page{
+
+    margin-left: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;  
+}
+
+.gallery-page{
+    align-content: center;
+    height: 1000px;
+    width: 1000px;
+    display: grid;
+    padding: 0;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.gallery-page img{
+    margin-left: 30px;
+    height: 90%;
+    width: 90%;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+/*Profile Grid*/
+
+.grid-container{
+   
+    margin-top: 70px;
+    margin-bottom: 10px;
+    
+}
+
+h6{
+    margin-top: auto;
+    margin-bottom: 10px;
+    font-size: 20px;
 }
 
 .imgProfilePic{
@@ -219,6 +143,52 @@ h6{
     margin-left: -50px;
     margin-top: 40px;
 }
+
+.item1 h4{
+    margin-top: -10px;
+}
+
+.item1 { 
+    grid-area: menu; 
+}
+
+.item3 {
+    grid-area:main;
+}
+  
+.grid-container {
+    display: grid;
+    grid-template-areas:
+    'header header header header header header'
+    'menu menu main main main main '
+    'footer footer footer footer footer footer ';
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.grid-container > div {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.grid-container .item1{
+    height: 800px;
+}
+
+.profilePic {
+    border-radius: 50%;
+    width: 50%;
+}
+
+.item3{
+    width: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
 .row {
     display: -ms-flexbox; /* IE10 */
     display: flex;
@@ -246,6 +216,87 @@ h6{
     float: left;
     border-radius: 50%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/*Header and nav*/
+header{
+    width: 1000px;
+}
+
+.main-header{
+    height: 120px;
+    margin-bottom: 15px;
+    padding-bottom: 40px;
+    width: 100%
+}
+
+.main-header img{
+    height: 120px;
+    width: 190px;
+    float:inherit;
+    
+}
+
+.nav {
+    text-align: right;
+    height: 50px;
+    line-height: 30px;
+    
+}
+
+.menu {
+    margin-top: -90px;
+    border: none;
+    font-size: 25px;
+    margin-left: 150px;
+}
+
+.menu a {
+    clear: right;
+    text-decoration: none;
+    margin: 0 10px;
+    line-height: 70px;
+}
+
+.nav label {
+    
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 60px;
+    display: none;
+    width: 30px;
+    float: left;
+}
+
+#toggle {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*footer*/
+.footer{
+    height: 80px;;
+}
+
 /*Breadcrumbs*/
 ul.breadcrumb {
     padding: 5px 16px;
@@ -270,17 +321,16 @@ ul.breadcrumb li a {
 ul.breadcrumb li a:hover {
     text-decoration: underline;
 }
-.item1 h4{
-    margin-top: -10px;
-}
 
-.item1 { 
-    grid-area: menu; 
-}
 
-.item3 {
-    grid-area:main;
-}
+
+
+
+
+
+
+/*Tab*/
+
 .tab button {
     float: right;
     border: none;
@@ -290,6 +340,10 @@ ul.breadcrumb li a:hover {
     transition: 0.3s;
     font-size: 17px;
 }
+
+
+
+
 .tabcontent {
     text-align: center;
     display: none;
@@ -307,12 +361,23 @@ ul.breadcrumb li a:hover {
     position:inherit;
     text-align: center;
 }
-\*HOME CSS*\
 
 
 
 
 
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.header {
+    text-align: center;
+    padding: 32px;
+}
+
+
+/*Ciarans Home*/
 
 .ImgHo {
     
@@ -409,13 +474,14 @@ w3-left{
 
 
 .buttonCon {
+    
     width: 50%;
     height: 25px;
-    
     margin: auto;
     padding: 10px;
 }
 .w3-left {
+    
     width: 2.5%;
     height: 25px;
     
@@ -423,32 +489,203 @@ w3-left{
     margin-left: -550px;
 }
 .w3-right {
+    
     margin-left: 1780px;
     height: 25px;
     width: 2.5%;
     margin-top:-25px;
     
+}
+
+h1 {
+    font-size: 50px;
+    text-decoration: underline;
+    
+    
+}
+
+.HomeMessage {
+    
+    text-align: center;
+    font-family: sans-serif;
+    
+    
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+p {
+    
+    font-size: 20px;
     
 }
 
 
 
-@media all and (max-width: 550px) {
+
+
+
+
+
+
+
+
+
+/*Evans*/
+.ImgHo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 54.7%;
+    margin-top: 50px;
+}
+.ImgHoBot {
+    display: block;
+    margin-top: 50px;
+    margin-left: 550px;
+    margin-bottom: 50px;
+}
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.grid-container{
+    display: grid;
+    grid-template-areas:
+    'header header header header header header'
+    'menu main main main main main'
+    'menu footer footer footer footer footer';
+    grid-gap: 10px;
+    padding: 10px;
+    background-color: white;
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+.admin { 
+    width: 360px;
+    margin: 0 auto 100px;
+    padding: 50px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.admin input {
+    outline: 0;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.admin input[type=submit] {
+    outline: 0;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    cursor: pointer;
+}
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+   .profile-container p{
+    font-size: 18px;
+     margin-top: 20px;
+     margin-left: 90px;
+}
+    .profButton input[type=submit]{
+     text-transform: uppercase;
+  outline: 0;
+  background: #444;
+  width: 150px;
+  border: 0;
+  padding: 8px;
+  color: #FFFFFF;
+  font-size: 14px;
+  cursor: pointer;
+  
+    margin-left: 30px;
+}
+
+    .profButton .uploadButton{
+    margin-top: 200px;
+}
+    
+}
+
+@media screen and (max-width: 700px) {
+     ul.breadcrumb {
+    padding: 5px 16px;
+    list-style: none;
+   
+    margin-top:-55px;
+}
+}
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+    .profilePic{
+        float: left;
+        height:100px;
+        width: 120px;
+        margin-top: -20px;
+        margin-left: 10px;
+    }
+    .item1 .name{
+        float: left;
+        margin-left: -125px;
+        margin-top: 100px;
+    }
+    .item1 .course{
+        float: left;
+        margin-left: -125px;
+        margin-top: 150px;
+    }
+    .item1 .bio{
+        float: left;
+        margin-left: -125px;
+        margin-top: 200px;
+    }
+        .profButton .uploadButton{
+        margin-top: -10px;
+    }
+    .grid-container .item1{
+        height:500px
+    }
+    ul.breadcrumb {
+    padding: 5px 16px;
+    list-style: none;
+    margin-top:-52px;
+        position:inherit;
+}
+}
+@media only screen and (max-width: 550px) {
     .nav label {
         display: block;
         cursor: pointer;
-        position: relative;
         margin-left: 0px;
-        margin-top: -10px;
-        z-index: 100;
+        margin-top: 10px;
+        text-align: right;
+        position: absolute;
+        right: 0;
+        top: 0;
+        
+    
     }
     .menu {
         text-align: center;
         width: 100%;
         display: none;
+        position: relative;
         margin-top: 45px;
         margin-left: auto;
-        position: relative; 
     }
     .menu a {
         position: relative;
@@ -457,34 +694,65 @@ w3-left{
         color: white;
         display: block;
         margin-right: auto;
-        margin-top: -40px;;
+        margin-top: -40px;
         margin-left: 70px;
         font-size: 20px;
-        margin-bottom: -40px;
+        z-index: 1500;
+       
+        
     }
-    form{
-        z-index: -100;
-        width: auto;
-    }
-    #toggle:checked + .menu {
-        display: block;
-    }
-    .signUp{
-        z-index: -100;
-    }
-    .logIn{
-        z-index: -100;
-    }
-    .main-header{
-        width: 120%;
-    }
-    .footer{
-        width: 120%;
-    }
+    
     .main-header img{
         height: 90px;
         width: 120px;
         margin-left: 5px;
+    }
+    #toggle:checked + .menu {
+        display: block;
+    }
+    
+    .main-header{
+        width: 1100px;
+        height: 90px;
+    }
+    .grid-container{
+        display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu menu menu menu menu menu '
+    'main main main main main main '
+     'footer footer footer footer footer footer' ;
+  grid-gap: 10px;
+  
+  padding: 10px;
+    }
+    .signUp{
+        z-index: -100;
+    }
+    .logIn input {
+        width: 90%;  
+    }
+    .logIn input[type=submit] {
+        width: 90%;
+    }
+    .signUp input {
+        width: 100%;
+    }
+    .signUp input[type=submit] {
+        width: 100%;
+    }
+   
+    .admin input {
+        width: 90%;
+    }
+    .admin input[type=submit] {
+        width: 90%;
+    }
+    .admin input {
+        width: 100%;
+    }
+    .admin input[type=submit] {
+        width: 100%;    
     }
     .gallery-page img{
         margin-left: auto;
@@ -503,112 +771,7 @@ w3-left{
         margin-right: auto; 
         z-index: auto;
     }
-    .logIn input {
-        width: 90%;  
-    }
-    .logIn input[type=submit] {
-        width: 90%;
-    }
-    .signUp input {
-        width: 100%;
-    }
-    .signUp input[type=submit] {
-        width: 100%;
-    }
-    .body{
-       margin-left: auto;
-       margin-right: auto;         
-    }
-    .admin input {
-        width: 90%;
-    }
-    .admin input[type=submit] {
-        width: 90%;
-    }
-    .admin input {
-        width: 100%;
-    }
-    .admin input[type=submit] {
-        width: 100%;    
-    }
-    .column {
-        -ms-flex: 50%;
-        flex: 50%;
-        max-width: 50%;
-    }
-        .profilePic{
-        float: left;
-        height:100px;
-        width: 120px;
-        margin-top: -20px;
-        margin-left: 10px;
-    }
-   .profile-container p{
-        font-size: 18px;
-        margin-top: 20px;
-        margin-left: 90px;
-    }
-    .profButton input[type=submit]{
-        text-transform: uppercase;
-        outline: 0;
-        background: #444;
-        width: 150px;
-        border: 0;
-        padding: 8px;
-        color: #FFFFFF;
-        font-size: 14px;
-        cursor: pointer;
-        margin-left: 30px;
-    }
-
-    .profButton .uploadButton{
-        margin-top: 200px;
-    }
-    
     
 }
-@media all and (max-width: 700px){
-    ul.breadcrumb {
-    padding: 5px 16px;
-    list-style: none;
-    margin-top:-55px;
-    }
-    
-    .logIn input {
-        width: 90%;
-    }
-    .logIn input[type=submit] {
-        width: 90%;
-    }
-    
-    .signUp input {
-        width: 100%;
-    }
-    .signUp input[type=submit] {
-        width: 100%;
-    }
-    .body{
-       margin-left: auto;
-       margin-right: auto;         
-    }
-    .gallery-page img{
-        margin-left: auto;
-        height: 250px;
-        width: 250px;
-        margin-top: 10px;
-        margin-right: auto;
-        display: block;
-    }
-    .gallery-page{
-        align-content: left;
-        height: auto;
-        width: auto;
-        display: block;
-        padding: 0;
-        margin-left: auto;
-        margin-right: auto;   
-    }
-}
-
 
 
